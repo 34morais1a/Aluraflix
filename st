@@ -1,4 +1,4 @@
 body{
-    color: white
-    background: black
+    color: rgb(123, 211, 88);
+    background: black;
 }
