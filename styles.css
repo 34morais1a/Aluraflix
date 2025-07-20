@@ -13,4 +13,6 @@ body{
 
   section{
     background: rgb(236, 109, 198);
+    padding-bottom: 80px;
+    padding-top: 80px;
   }
