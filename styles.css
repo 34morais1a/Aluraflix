@@ -3,6 +3,7 @@ body{
     background: rgb(0, 0, 0);
     margin: 0px;
     font-family: "Winky Rough", sans-serif;
+    margin-bottom: 100px;
 }
 
  header { 
@@ -30,9 +31,7 @@ body{
    p {
     font-size: 25px;
    }
-   img{
-     height: 200px;
-   }
+   
    .categoria-vídeos{
     display: flex;
     overflow-x: auto;
@@ -42,4 +41,17 @@ body{
     .categoria{
       padding-left: 20px;
       padding-right: 20px;
+      margin-top: 50px;
+    }
+    .categoria-vídeos img {
+      opacity: 0.5;
+      height: 200px;
+    }
+
+    .categoria-vídeos img:hover{
+      opacity: 1.0;
+      border: 1px solid rgb(255, 129, 45)
+    }
+    .categoria h2{
+      color: rgb(236 95 166);
     }
